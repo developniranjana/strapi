@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_sections_cta_sections",
+    "info": {
+        "displayName": "CTA Section",
+        "description": "Call to action block for blog landing"
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "buttonText": {
+            "type": "string"
+        },
+        "buttonLink": {
+            "type": "string"
+        },
+        "backgroundImage": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

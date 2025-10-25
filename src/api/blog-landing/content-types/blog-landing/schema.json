@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_landings",
+  "info": {
+    "singularName": "blog-landing",
+    "pluralName": "blog-landings",
+    "displayName": "blog-landing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "seoContent": {
+      "type": "json"
+    }
+  }
+}
